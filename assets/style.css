@@ -1,12 +1,17 @@
 /* Custom properties/variables  */
 :root {
-    --main-white: #feffff;
-    --main-green: #3aafa9;
-    --main-dark-green: #2b7a78;
-    --main-gray: #def2f1;
+    --main-yellow: #f8e9a1;
+    --main-blue: #a8d0e6;
+    --main-darker-blue: #;
+    --main-salmon: #f76c6c;
     --main-black: #17252a;
 }
 
 html {
     background: var(--main-dark-green)
 }
+
+#welcome-section {
+    background: var(--main-green);
+}
+
