@@ -1,0 +1,12 @@
+/* Custom properties/variables  */
+:root {
+    --main-white: #feffff;
+    --main-green: #3aafa9;
+    --main-dark-green: #2b7a78;
+    --main-gray: #def2f1;
+    --main-black: #17252a;
+}
+
+html {
+    background: var(--main-dark-green)
+}
