@@ -1,80 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <head>
-        <title>櫻田ブライアン - サンプル</title>
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-            crossorigin="anonymous"
-            />
-        <link 
-            rel="stylesheet" 
-            href="assets/style.css" 
-            type="text/css"
-            />
-    </head>
-    <body>
-        <nav id="navbar" class="navbar">
-            <ul class="navlist">
-                <li><a href="#welcome-section">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <section id="welcome-section">
-            <h1>よろしく、櫻田ブライアンと申します</h1>
-            <h2>ソフトウェアエンジニア</h2>
-        </section>
-        <section id="projects">
-            <h2>これらは私のプロジェクトのサンプルです</h2>
-            <div class="projects-grid">
-                <a
-                    href="https://sakubs.github.io/masamune.github.io/"
-                    target="_blank"
-                    class="project project-tile">
-                    <img
-                        class="project-image"
-                        src="assets/masamune.png"
-                        alt="project"
-                        />
-                    <p class="project-title">
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link href="https://fonts.googleapis.com/css?family=Kosugi|Kosugi+Maru&display=swap" rel="stylesheet">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<header>
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li><a href="#welcome-section">紹介</a></li>
+      <li><a href="#projects">ポートフォリオ</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
+    </ul>
+  </nav
+</header>
+<body>
+    <section id="welcome-section" class="welcome-section">
+        <div id="background-wrap">
+            <div class="x1">
+                <div class="cloud"></div>
+            </div>
+            <div class="x2">
+                <div class="cloud"></div>
+            </div>
+            <div class="x3">
+                <div class="cloud"></div>
+            </div>
+            <div class="x4">
+                <div class="cloud"></div>
+            </div>
+            <div class="x5">
+                <div class="cloud"></div>
+            </div>
+        </div>
+        <h1>櫻田ブライアン</h1>
+        <p>2009年からソフトウェアエンジニア</p>
+        <p>岩手県、日本</p>
+        <div id="tech">
+            <i id="web" class="fas fa-desktop">ホームページ</i>
+            <i id="mobile" class="fas fa-tablet-alt">アンドロイドのアプリ</i>
+            <i id="laptop" class="fas fa-laptop">パソコンのアプリ</i>
+        </div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <div class="projects-grid">
+            <a 
+                href="https://sakubs.github.io/masamune.github.io/"
+                target="_blank"
+                class="project project-tile">
+                <img 
+                    class="project-image"
+                    src="https://sakubs.github.io/assets/masamune.png"
+                    alt="project"
+                    />
+                <p class="project-title">
                     <span class="code">&lt;</span>
                         Masamune Tribute Page 
                     <span class="code">&#47;&gt;</span>
-                    </p>
-                </a>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>一緒に素晴らしいものを作りましょう</h2>
-            <div class="contact-links">
-                <a 
-                    id="profile-link" 
-                    href="https://github.com/sakubs" 
-                    target="_blank" 
-                    class="btn contact-details">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                <a 
-                    id="linkedin-link" 
-                    href="https://www.linkedin.com/in/brianmoriya/" 
-                    target="_blank" 
-                    class="btn contact-details">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                <a 
-                    id="freelancer-link" 
-                    href="https://www.linkedin.com/in/brianmoriya/" 
-                    target="_blank" 
-                    class="btn contact-details">
-                    <i class="fas fa-briefcase"></i> Freelancer
-                </a>
-            </div>
-        </section>
-    </body>
-    <footer>
-
-    </footer>
+                </p>
+            </a>
+            <a 
+                href="https://sakubs.github.io/masamune.github.io/"
+                target="_blank"
+                class="project project-tile">
+                <img 
+                    class="project-image"
+                    src="https://sakubs.github.io/assets/survey.jpg"
+                    alt="project"
+                    />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Survey Form 
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>一緒に素晴らしいものを作りましょう</h2>
+        <ul>
+            <li>ホームページを作る</li>
+            <li>アンドロイドのアプリ</li>
+            <li>パソコンのアプリ</li>
+            <li>WordPress</li>
+            <li>Django</li>
+            <li>Linux</li>
+        </ul>
+        <p class="contact-font">お問い合わせ:</p>
+        <div class="contact-links">
+            <a 
+                id="profile-link" 
+                href="https://github.com/sakubs" 
+                target="_blank" 
+                class="btn contact-details">
+                <i class="fab fa-github">GitHub</i>
+            </a>
+            <a 
+                id="linkedin-link" 
+                href="https://www.linkedin.com/in/brianmoriya/" 
+                target="_blank" 
+                class="btn contact-details">
+                <i class="fab fa-linkedin">LinkedIn</i>
+            </a>
+            <a 
+                id="freelancer-link" 
+                href="https://www.linkedin.com/in/brianmoriya/" 
+                target="_blank" 
+                class="btn contact-details">
+                <i class="fas fa-briefcase">Freelancer</i> 
+            </a>
+            <a 
+               href="mailto:sakuradabs@gmail.com" class="btn contact-details">
+                <i class="fas fa-at">メール</i>
+            </a>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>
+        &copy; Brian Sakurada - 2019
+    </p>
+</footer>
 </html>
