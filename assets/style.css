@@ -407,13 +407,12 @@ border-radius: 2px;
 }
 
 .btn-show-all {
-font-size: 2rem;
-background: var(--main-gray);
-transition: background 0.3s ease-out;
+  font-size: 2rem;
+  background: var(--main-gray);
 }
 
 .btn-show-all:hover {
-background: var(--main-red);
+  background: var(--main-red);
 }
 
 .btn-show-all:hover > i {
