@@ -112,9 +112,9 @@ body {
 /* ANIMATIONS */
 
 .x1 {
-  -webkit-animation: animateCloud 35s linear infinite;
-  -moz-animation: animateCloud 35s linear infinite;
-  animation: animateCloud 35s linear infinite;
+  -webkit-animation: animateCloud 65s linear infinite;
+  -moz-animation: animateCloud 65s linear infinite;
+  animation: animateCloud 65s linear infinite;
 
   -webkit-transform: scale(0.65);
   -moz-transform: scale(0.65);
@@ -122,9 +122,9 @@ body {
 }
 
 .x2 {
-  -webkit-animation: animateCloud 20s linear infinite;
-  -moz-animation: animateCloud 20s linear infinite;
-  animation: animateCloud 20s linear infinite;
+  -webkit-animation: animateCloud 50s linear infinite;
+  -moz-animation: animateCloud 50s linear infinite;
+  animation: animateCloud 50s linear infinite;
 
   -webkit-transform: scale(0.3);
   -moz-transform: scale(0.3);
@@ -132,9 +132,9 @@ body {
 }
 
 .x3 {
-  -webkit-animation: animateCloud 30s linear infinite;
-  -moz-animation: animateCloud 30s linear infinite;
-  animation: animateCloud 30s linear infinite;
+  -webkit-animation: animateCloud 60s linear infinite;
+  -moz-animation: animateCloud 60s linear infinite;
+  animation: animateCloud 60s linear infinite;
 
   -webkit-transform: scale(0.5);
   -moz-transform: scale(0.5);
@@ -142,9 +142,9 @@ body {
 }
 
 .x4 {
-  -webkit-animation: animateCloud 18s linear infinite;
-  -moz-animation: animateCloud 18s linear infinite;
-  animation: animateCloud 18s linear infinite;
+  -webkit-animation: animateCloud 48s linear infinite;
+  -moz-animation: animateCloud 48s linear infinite;
+  animation: animateCloud 48s linear infinite;
 
   -webkit-transform: scale(0.4);
   -moz-transform: scale(0.4);
@@ -152,9 +152,9 @@ body {
 }
 
 .x5 {
-  -webkit-animation: animateCloud 25s linear infinite;
-  -moz-animation: animateCloud 25s linear infinite;
-  animation: animateCloud 25s linear infinite;
+  -webkit-animation: animateCloud 55s linear infinite;
+  -moz-animation: animateCloud 55s linear infinite;
+  animation: animateCloud 55s linear infinite;
 
   -webkit-transform: scale(0.55);
   -moz-transform: scale(0.55);
