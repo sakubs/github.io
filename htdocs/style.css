@@ -253,6 +253,10 @@ i {
   transition: transform 0.3s ease-out;
 }
 
+p {
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
 /* Navigation bar */
 .nav {
   background: var(--theme-hue1);
