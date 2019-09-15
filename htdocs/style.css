@@ -111,27 +111,27 @@ body {
 
 /* ANIMATIONS */
 
-.x1 {
-  -webkit-animation: animateCloud 65s linear infinite;
-  -moz-animation: animateCloud 65s linear infinite;
-  animation: animateCloud 65s linear infinite;
+.cloud1 {
+  -webkit-animation: animateCloud 70s linear infinite;
+  -moz-animation: animateCloud 70s linear infinite;
+  animation: animateCloud 70s linear infinite;
 
-  -webkit-transform: scale(0.65);
-  -moz-transform: scale(0.65);
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
   transform: scale(0.65);
 }
 
-.x2 {
-  -webkit-animation: animateCloud 50s linear infinite;
-  -moz-animation: animateCloud 50s linear infinite;
-  animation: animateCloud 50s linear infinite;
+.cloud2 {
+  -webkit-animation: animateCloud 75s linear infinite;
+  -moz-animation: animateCloud 75s linear infinite;
+  animation: animateCloud 75s linear infinite;
 
   -webkit-transform: scale(0.3);
   -moz-transform: scale(0.3);
   transform: scale(0.3);
 }
 
-.x3 {
+.cloud3 {
   -webkit-animation: animateCloud 60s linear infinite;
   -moz-animation: animateCloud 60s linear infinite;
   animation: animateCloud 60s linear infinite;
@@ -141,20 +141,20 @@ body {
   transform: scale(0.5);
 }
 
-.x4 {
-  -webkit-animation: animateCloud 48s linear infinite;
-  -moz-animation: animateCloud 48s linear infinite;
-  animation: animateCloud 48s linear infinite;
+.cloud4 {
+  -webkit-animation: animateCloud 70s linear infinite;
+  -moz-animation: animateCloud 70s linear infinite;
+  animation: animateCloud 70s linear infinite;
 
   -webkit-transform: scale(0.4);
   -moz-transform: scale(0.4);
   transform: scale(0.4);
 }
 
-.x5 {
-  -webkit-animation: animateCloud 55s linear infinite;
-  -moz-animation: animateCloud 55s linear infinite;
-  animation: animateCloud 55s linear infinite;
+.cloud5 {
+  -webkit-animation: animateCloud 80s linear infinite;
+  -moz-animation: animateCloud 80s linear infinite;
+  animation: animateCloud 80s linear infinite;
 
   -webkit-transform: scale(0.55);
   -moz-transform: scale(0.55);
@@ -223,7 +223,7 @@ footer {
 
 h1, h2 {
   color: white;
-  font-align: center;
+  text-align: center;
   z-index: 10;
   text-shadow: 2px 2px 1px #1f1f1f;
 }
