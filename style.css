@@ -227,7 +227,6 @@ p {
 }
 
 .project {
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
@@ -237,9 +236,10 @@ p {
   transition: color 0.3s ease-out;
 }
 
-.project:hover .code, 
-.project:hover .project-title {
+.project:hover .project-title,
+.project:hover .project-image {
   background: var(--theme-hue4);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .project-image {
