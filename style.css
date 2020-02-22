@@ -1,7 +1,13 @@
-/* Custom properties/variables. 
- * I put the main theme color definitions here to 
- * improve my quality of life.
+/*
+Contents:
+
+1. Variables
+2. Globals
 */
+
+/*==========================
+1. Variables 
+===========================*/
 :root {
   --theme-hue1: #3b8beb;
   --theme-hue2: #c4dbf6;
@@ -9,6 +15,10 @@
   --theme-hue4: #a3586d;
   --theme-hue5: #36688d;
 }
+
+/*==========================
+2. Globals
+===========================*/
 
 /* Kill the space at the edges. Base reset. */
 * {
@@ -35,7 +45,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Media queries for proper sizing */
+/*===================================
+Media queries for proper font sizing 
+====================================*/
+
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
   html {
