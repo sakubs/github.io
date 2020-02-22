@@ -7,6 +7,9 @@ Contents:
 4. Body
 5. Footer
 6. Nav Menu
+7. Contact Section
+8. Projects section
+9. Welcome Section
 */
 
 /*==========================
@@ -176,7 +179,10 @@ footer {
   background: var(--theme-hue4);
 }
 
-/* Contact Section */
+/*=================
+7. Contact Section 
+==================*/
+
 #contact {
   display: flex;
   flex-direction: column;
@@ -226,7 +232,10 @@ footer {
   transform: translateY(8px);
 }
 
-/* Projects section */
+/*==================
+8. Projects section 
+===================*/
+
 #projects {
   height: 100vh;
   margin: 0;
@@ -317,7 +326,10 @@ footer {
   margin-top: 2rem;
 }
 
-/* Welcome Section */
+/*=================
+9. Welcome Section 
+==================*/
+
 #welcome-section {
   align-items: center;
   color: white;
