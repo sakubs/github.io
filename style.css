@@ -10,6 +10,7 @@ Contents:
 7. Contact Section
 8. Projects section
 9. Welcome Section
+10. Firefly Animation
 */
 
 /*==========================
@@ -352,6 +353,10 @@ footer {
   font-size: 3rem;
   font-weight: 200;
 }
+
+/*====================
+10. Firefly Animation
+=====================*/
 
 .firefly {
   position: fixed;
