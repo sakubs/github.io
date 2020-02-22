@@ -3,6 +3,7 @@ Contents:
 
 1. Variables
 2. Globals
+3. Base Element Styles
 */
 
 /*==========================
@@ -70,7 +71,9 @@ Media queries for proper font sizing
   }
 }
 
-/* Base styles */
+/*==================== 
+3. Base Element Styles 
+======================*/
 body {
   background-image: url("assets/clouds-clipped.JPG");
   font-family: 'Kosugi Maru', sans-serif;
