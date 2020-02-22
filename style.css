@@ -183,8 +183,11 @@ footer {
 }
 
 .nav-list a:hover {
-  /* background: var(--theme-hue5); */
-  transform: translateY(8px);
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 /*=================
