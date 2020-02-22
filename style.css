@@ -41,6 +41,13 @@ Contents:
 }
 
 html {
+  /* Full site background that doesn't move. */
+  background: url("assets/forest.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   box-sizing: border-box;
   font-family: 'Kosugi Maru', sans-serif;
 
@@ -121,7 +128,7 @@ p {
 4. Body
 ===================*/
 body {
-  background-image: url("assets/clouds-clipped.JPG");
+  /* background-image: url("assets/clouds-clipped.JPG"); */
   font-family: 'Kosugi Maru', sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
@@ -138,7 +145,6 @@ footer {
   color:white;
   text-align: center;
 }
-
 
 /*================
 6. Navigation bar 
@@ -346,3 +352,4 @@ footer {
   font-size: 3rem;
   font-weight: 200;
 }
+
