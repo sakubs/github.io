@@ -183,7 +183,8 @@ footer {
 }
 
 .nav-list a:hover {
-  background: var(--theme-hue4);
+  /* background: var(--theme-hue5); */
+  transform: translateY(8px);
 }
 
 /*=================
