@@ -13,6 +13,14 @@ Contents:
 10. Firefly Animation
 */
 
+@font-face {
+  font-family: 'umeboshiumeboshi';
+  src: url('assets/webfontkit/umeboshi_-webfont.woff2') format('woff2'),
+       url('assets/webfontkit/umeboshi_-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 /*==========================
 1. Variables 
 ===========================*/
@@ -50,7 +58,7 @@ html {
   background-size: cover;
 
   box-sizing: border-box;
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'umeboshiumeboshi', sans-serif;
 
   /* Set font size for easy rem calculations
   * default document font size = 16px, 1rem = 16px, 100% = 16px
@@ -94,6 +102,7 @@ h1, h2 {
   text-align: center;
   z-index: 10;
   text-shadow: 2px 2px 1px #1f1f1f;
+  font-family: 'umeboshiumeboshi', sans-serif;
 }
 
 h1 {
@@ -122,7 +131,7 @@ i {
 }
 
 p {
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'umeboshiumeboshi', sans-serif;
 }
 
 /*==================
@@ -130,7 +139,7 @@ p {
 ===================*/
 body {
   /* background-image: url("assets/clouds-clipped.JPG"); */
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'umeboshiumeboshi', sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
@@ -159,6 +168,8 @@ footer {
   width: 100%;
   z-index: 10;
   text-shadow: 2px 2px 1px #1f1f1f;
+  font-family: 'umeboshiumeboshi', sans-serif;
+  
 }
 
 .nav-list {
@@ -346,7 +357,7 @@ footer {
   color: white;
   display: flex;
   flex-direction: column;
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'umeboshiumeboshi', sans-serif;
   height: 100vh;
   justify-content: center;
   margin: 0;
@@ -355,7 +366,7 @@ footer {
 
 #welcome-section > p {
   font-size: 3rem;
-  font-weight: 200;
+  font-family: 'umeboshiumeboshi', sans-serif;
 }
 
 
